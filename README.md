@@ -8,4 +8,5 @@ It contains detailed solutions to various lab practicals, providing a reference 
 The practicals from various subjects, including but not limited to:
 
 Programming with Python
+
 Mobile Application Development
