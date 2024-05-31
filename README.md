@@ -3,7 +3,7 @@ This repository includes all the practicals I completed while pursuing a Diploma
 
 # Introduction
 This repository is intended to serve as a valuable resource for students pursuing the MSBTE I Scheme. 
-It contains detailed solutions to various lab practicals, providing a reference point for your studies.
+It contains detailed solutions to various lab practicals, providing a reference point for  studies.
 # Subjects Covered
 The practicals from various subjects, including but not limited to:
 
