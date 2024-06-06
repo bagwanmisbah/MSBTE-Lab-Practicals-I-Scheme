@@ -1,0 +1,23 @@
+'''
+. PRINT THE FOLLOWING PATTERNS USING LOOP: 
+a. * 
+   ** 
+   ***   
+   **** 
+   
+b.	  * 
+     *** 
+    ***** 
+     *** 
+      * 
+c.	1010101 
+     10101 
+      101 
+       1
+
+'''
+
+for i in range(4):
+  for j in range(4):
+    print(*)
+  print()
