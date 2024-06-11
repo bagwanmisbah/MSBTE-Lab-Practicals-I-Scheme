@@ -34,3 +34,12 @@ print('*' * (2 * rows + 1))
 for i in range(rows, 0, -1):
     print(' ' * (rows - i + 1) + '*' * (2 * i - 1))
 
+# Initialize the pattern string
+pattern = "1010101"
+
+# Loop through each row
+for i in range(0, len(pattern), 2):
+    # Print spaces followed by the required substring of the pattern
+    print(' ' * (i // 2) + pattern[i:])
+
+
