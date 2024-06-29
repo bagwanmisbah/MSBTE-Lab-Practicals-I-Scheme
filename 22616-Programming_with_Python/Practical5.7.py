@@ -8,4 +8,12 @@ while num!=0:
   num=num//10
 
 print(f'Sum of {num1} : {sum}')
+
+#Alternate way(string)
+num=input("Enter number:")
+sum=0
+for digit in str(num):
+  sum=sum+int(digit)
+
+print(sum)
   
