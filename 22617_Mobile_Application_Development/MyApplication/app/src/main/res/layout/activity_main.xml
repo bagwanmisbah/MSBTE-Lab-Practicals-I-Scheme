@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="Depreciated">
+
+    <TextView
+        android:id="@+id/mis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MISBAH"
+        android:textSize="55dp"
+        android:layout_x="155px"
+        android:layout_y="200px"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAGWAN"
+        android:textSize="55dp"
+        android:layout_x="155px"
+        android:layout_y="200px"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+</LinearLayout>

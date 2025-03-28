@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img1"
+        android:src="@drawable/regGUI"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img1"
+        android:id="@+id/ed1"
+        android:hint="Name"
+        android:layout_marginLeft="40dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed1"
+        android:id="@+id/ed2"
+        android:hint="Email ID"
+        android:layout_marginLeft="40dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed2"
+        android:id="@+id/ed3"
+        android:hint="Password"
+        android:layout_marginLeft="40dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed3"
+        android:id="@+id/ed4"
+        android:hint="Confirm Password"
+        android:layout_marginLeft="40dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed4"
+        android:id="@+id/ed5"
+        android:hint="Enter Mobile"
+        android:layout_marginLeft="40dp" />
+        <RadioButton
+            android:id="@+id/rgb1"
+            android:layout_below="@+id/ed5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:layout_marginLeft="130dp"/>
+        <RadioButton
+            android:id="@+id/rgb2"
+            android:layout_toRightOf="@id/rgb1"
+            android:layout_below="@+id/ed5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_below="@+id/rgb2"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

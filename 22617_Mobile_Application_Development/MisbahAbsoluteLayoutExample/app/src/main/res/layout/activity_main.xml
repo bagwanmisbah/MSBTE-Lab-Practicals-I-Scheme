@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:text="TextView placed in AbsoluteLayout using xy co-ordinates"
+        android:layout_x="150px"
+        android:layout_y="1200px"
+        android:capitalize="none"
+    />
+</AbsoluteLayout>

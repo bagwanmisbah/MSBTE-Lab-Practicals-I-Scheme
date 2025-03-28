@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="INTEGER"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="top" />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="FLOAT"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="right" />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="BOOLEAN"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="center"/>
+    
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="COMPLEX"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="bottom" />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="STRING"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="bottom|center" />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="CHARACTER"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="bottom|right" />
+</FrameLayout>

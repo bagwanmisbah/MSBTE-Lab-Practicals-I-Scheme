@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE THE CORRECT OPTION RELATED TO ANDROID"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:layout_below="@+id/txt1"
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rgb1"
+            android:layout_below="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android is a web browser"/>
+        <RadioButton
+            android:id="@+id/rgb2"
+            android:layout_below="@+id/rgb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android is an OS"/>
+        <RadioButton
+            android:id="@+id/rgb3"
+            android:layout_below="@+id/rgb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android is a Web Server"/>
+        <RadioButton
+            android:id="@+id/rgb4"
+            android:layout_below="@+id/rgb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW"
+        android:layout_centerInParent="true"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

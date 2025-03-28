@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data types in Object Oriented Programming"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Int"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Float"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="String"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp"/>
+
+</FrameLayout>

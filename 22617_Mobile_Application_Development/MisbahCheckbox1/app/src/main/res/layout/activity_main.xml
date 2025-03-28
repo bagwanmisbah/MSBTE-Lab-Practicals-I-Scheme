@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select family member to display"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:text="MISBAH"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHAINAAZ"
+        android:layout_below="@+id/checkbox"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IQBAL"
+        android:layout_below="@+id/checkbox1"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AWAIZ"
+        android:layout_below="@+id/checkbox2"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HAZARA BI"
+        android:layout_below="@+id/checkbox3"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOOR MHOMMAD"
+        android:layout_below="@+id/checkbox4"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/checkbox5"
+        android:onClick="show"/>
+
+</RelativeLayout>
